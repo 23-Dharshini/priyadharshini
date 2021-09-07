@@ -1,18 +1,17 @@
-"""#LEAP YEAR
+#LEAP YEAR
 year = int(input("Enter the year:"))
-if (year%4,year%100,year%400):
+if (year%4==0,year%100!=0,year%400):
     print(year,"is an Leap year")
 else:
-    prnit(year,"is not an Leap year")"""
+    prnit(year,"is not an Leap year")
 
-"""#ODD & EVEN
+#ODD & EVEN
 num=int(input("Enter the number:"))
 if (num%2)==0:
     print("The Given Number is Even no.")
 else:
-    print("The Given Number is Odd")"""
-
-"""#FACTORIAL NUMBER
+    print("The Given Number is Odd")
+#FACTORIAL NUMBER
 def fact(n):
     if n==1:
         return n
@@ -24,9 +23,9 @@ if n==0:
 elif (n<0):
     print("Invaild")
 else:
-    print("Factorial of",n, "is",(n-1))"""
+    print("Factorial of",n, "is",(n-1))
 
-"""#FIBONACCI SERIES
+#FIBONACCI SERIES
 num=int(input("Enter the Number:"))
 n1=0
 n2=1
@@ -42,5 +41,5 @@ while count<num:
     last=n1+n2
     n1=n2
     n2=last
-    count+=1"""
+    count+=1
 
