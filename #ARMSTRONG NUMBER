@@ -1,0 +1,11 @@
+number=int(input("Enter the Number:"))
+v=0
+temp=number
+while (temp>0):
+ digit=temp%10
+v= v + digit**3
+temp=temp//10
+if (v==number):
+    print(number,"is an armstrong no.")
+else:
+    print(number,"is an not armstrong no.")
